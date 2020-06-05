@@ -1,0 +1,9 @@
+spring.application.name: cloud-eureka-server
+security.basic.enabled: true
+security.user.name: admin
+security.user.password: admin
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
