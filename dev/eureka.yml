@@ -1,6 +1,9 @@
-security.basic.enabled: true
-security.user.name: admin
-security.user.password: admin
+security: 
+  basic:
+    enabled: true
+  user:
+    name: admin
+    password: admin
 
 eureka:
   client:
