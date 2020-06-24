@@ -194,3 +194,5 @@ ribbon:
   http:
     client:
       enabled: false
+server:
+  port: 8080
