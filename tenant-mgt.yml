@@ -4,9 +4,9 @@ server:
   port: 8090
 spring:
   redis:
-    host: dev-redis
+    host: 172.16.2.223
     port: 6379
-    password: 123qwe
+    password: pGaHMr5t
     database: 1
     pool:
       max-idle: 8
@@ -16,12 +16,12 @@ spring:
 haima:
   datasource:
     tenant-mgt:
-      host: dev-mysql
+      host: docker-mgt.haima.me
       port: 3306
       database: db_tenant_mgt
       properties:
         driverClassName: com.mysql.jdbc.Driver
-        username: admin
+        username: root
         password: 123qwe
         url: jdbc:mysql://dev-mysql:3306/db_tenant_mgt?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true
         validationQuery: SELECT 1
